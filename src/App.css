@@ -1,0 +1,95 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#food-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#food-box {
+  display: flex;
+  width: 60%;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+#food-box input,button {
+  padding: 10px;
+}
+
+#food-box img {
+  height: 80px;
+  width: 80px;
+}
+
+#add-box input{
+  border: 2px solid #530878;
+  border-radius: 5px;
+}
+
+#add-box button {
+  color: white;
+  margin: 5px;
+  background-color: #530878;
+  border-radius: 5px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+#search h1 {
+  padding: 10px 0px;
+}
+
+#search input {
+  width: 50%;
+  height: 40px;
+  margin: 0px 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #530878;
+}
+
+#calories {
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  flex-direction: row;
+  justify-content: space-between;
+  width: 280px;
+  margin: 20px;
+}
+
+#calories button {
+  background-color: #717271;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
